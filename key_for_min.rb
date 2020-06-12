@@ -13,7 +13,7 @@ def key_for_min_value(family_ages)
   family_ages.min[0]
 end
 
-key_for_min_value(family_ages)
+puts key_for_min_value(family_ages)
 
 
 
