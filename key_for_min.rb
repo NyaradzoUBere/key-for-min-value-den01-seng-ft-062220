@@ -17,6 +17,8 @@ def key_for_min_value(family_ages)
       smallest_value = value
       smallest_key = key
     end
+  end
+  smallest_key
 end
 
 
