@@ -1,7 +1,7 @@
 # prereqs: iterators, hashes, conditional logic
 # Given a hash with numeric values, return the key for the smallest value
 
-def key_for_min_value(name_hash)
+def key_for_min_value(family_ages)
   key_for_min_value = {
     :Tiva => 15,
     :Mareva => 2,
@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
 
 end
 
-puts key_for_min_value.min
+puts key_for_min_value(family_ages).min
 
 
 
