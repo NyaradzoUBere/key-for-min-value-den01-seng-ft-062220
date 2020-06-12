@@ -4,7 +4,7 @@
 
 
 def key_for_min_value(hash)
-  smallest_key = nill
+  smallest_key = nil
   smallest_value = 0
   family_ages.each do |key, value|
     if smallest_value == 0 || value < smallest_value
