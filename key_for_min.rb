@@ -14,7 +14,8 @@ def key_for_min_value(family_ages)
   smallest_value = 0
   family_ages.each do |key, value|
     if smallest_value == 0 || value < smallest_value
-      
+      smallest_value = value
+      smallest_key = key
 end
 
 puts key_for_min_value(family_ages)
