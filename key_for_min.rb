@@ -16,6 +16,7 @@ def key_for_min_value(family_ages)
     if smallest_value == 0 || value < smallest_value
       smallest_value = value
       smallest_key = key
+    end
 end
 
 puts key_for_min_value(family_ages)
