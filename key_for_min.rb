@@ -2,11 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 family_ages = {
-    :Tiva => 15,
-    :Mareva => 2,
-    :Edith => 42,
-    :Muzo => 41,
-    :Naya => 21
+    :Tom => 15,
+    :Cindy => 2,
+    :Emma => 42,
+    :Jon => 41,
+    :Nyle => 21
   }
 
 def key_for_min_value(family_ages)
