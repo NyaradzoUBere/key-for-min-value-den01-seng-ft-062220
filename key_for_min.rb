@@ -21,7 +21,7 @@ def key_for_min_value(family_ages)
   smallest_key
 end
 
-
+puts key_for_min_value(family_ages)
 
 
 
